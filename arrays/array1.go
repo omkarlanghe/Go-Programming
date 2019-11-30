@@ -33,4 +33,13 @@ func main() {
 	lazy := [...]int{1, 2, 33, 53, 531}
 
 	fmt.Println(lazy)
+
+	//arrays as value types not reference type
+	country_set_1 :=[...]string{"india", "united kingdom", "usa", "russia", "china"}
+	country_set_2 := country_set_1
+
+	country_set_2[2] = "Spain"
+
+	fmt.Println(country_set_1)
+	fmt.Println(country_set_2)
 }
