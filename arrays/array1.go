@@ -20,6 +20,10 @@ func main() {
 		fmt.Println("cars => ", cars[i])
 	}
 
+	for i := 0; i < 3; i++ {
+		fmt.Println("cars => ", cars[i])
+	}
+
 	//It is not necessary all the elements has to be assigned, those which are not assigned automatically assigned to 0
 	var age [5]int
 	age[0] = 23
@@ -43,3 +47,4 @@ func main() {
 	fmt.Println(country_set_1)
 	fmt.Println(country_set_2)
 }
+
